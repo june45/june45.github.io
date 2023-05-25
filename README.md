@@ -1,4 +1,9 @@
 # June Lee's Blog
-Welcome to my personal blog on GitHub! Here, I'll be documenting my progress and sharing what I've learned about AI from the fastai course. Using GitHub Pages, I've created this free blog to showcase my journey and provide insights into the world of artificial intelligence.
 
-This is the repository for your blog! Click *_config.yml* above to get started and fill in the details. Then click *index.md* and edit it to start creating your home page.
+Greetings, welcome to my personal blog. I am a Student at the University of Queensland studying a dual degree in Electrical Engineering and Information Technology. I've created this blog to share my experiences and learnings in AI from the fastai course. Using GitHub and GitHub Pages, I've created this blog to share these expereiences. This Blog is inspired by Brian Lovell's ELEC4630 Course.
+
+![Image of fast.ai logo](images/logo.png)
+
+> May 25, 2023
+
+## [Setting up and Formatting Blog Posts](https://github.com/june45/june45.github.io/blob/master/_posts/2020-05-25-Initial.md)

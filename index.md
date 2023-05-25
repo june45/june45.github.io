@@ -7,3 +7,8 @@ Greetings, welcome to my personal blog. I am a Student at the University of Quee
 > May 25, 2023
 
 ## [Setting up and Formatting Blog Posts](https://github.com/june45/june45.github.io/blob/master/_posts/2020-05-25-Initial.md)
+
+> May 26, 2023
+
+## [Fast Ai Introduction Notes](https://github.com/june45/june45.github.io/blob/master/_posts/2023-05-26-FastAiNotes.md)
+

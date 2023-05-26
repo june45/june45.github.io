@@ -37,5 +37,36 @@ Now we're ready to train our model. The fastest widely used computer vision mode
 learn = vision_learner(dls, resnet18, metrics=error_rate)
 learn.fine_tune(3)
 ```
+To generate a Confusion Matrix table given the trained model.
+```python
+from fastai.vision.all import *
 
+# Create the interpretation object
+interp = ClassificationInterpretation.from_learner(learn)
+
+# Generate the confusion matrix
+interp.plot_confusion_matrix()
+```
+
+
+
+
+
+Given the Confusion Table as seen above for the most case most were matched correctly however there were a few outliner.
+For example:
+- Overlap between cats and dogs which is expected as they can be both the same size with similar shapes.
+- Overlap with the snake and mouse can be related with the fact of snakes being a predator to mice. 
+- Overlap with monkey and cat could be caused from the fur similatities 
+
+To improve the output of the Matrix (ChatGPT):
+- Preprocess and clean your data, including normalization, feature scaling, and handling missing values.
+- Select appropriate features or perform feature engineering to capture meaningful information from the data.
+- Choose the right model and tune its hyperparameters to optimize performance.
+- Use cross-validation techniques to evaluate your model's performance and detect overfitting or underfitting.
+- Consider ensemble methods to combine predictions from multiple models and improve accuracy.
+- Handle class imbalance issues using techniques like oversampling, undersampling, or class weighting.
+- Apply regularization techniques and use dropout layers to prevent overfitting.
+- Explore fine-tuning and transfer learning if pre-trained models are available.
+- Perform error analysis on the confusion matrix to identify patterns and areas for improvement.
+- Iterate and experiment with different approaches, continually refining your model and data preprocessing techniques.
 

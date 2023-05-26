@@ -1,4 +1,6 @@
-# June Lee's Blog https://github.com/june45/june45.github.io
+# June Lee's Blog
+
+https://github.com/june45/june45.github.io
 
 Greetings, welcome to my personal blog. I am a Student at the University of Queensland studying a dual degree in Electrical Engineering and Information Technology. I've created this blog to share my experiences and learnings in AI from the fastai course. Using GitHub and GitHub Pages, I've created this blog to share these expereiences. This Blog is inspired by Brian Lovell's ELEC4630 Course.
 

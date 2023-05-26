@@ -48,6 +48,7 @@ interp = ClassificationInterpretation.from_learner(learn)
 interp.plot_confusion_matrix()
 ```
 
+![test](../images/confusion_output.png)
 
 
 
